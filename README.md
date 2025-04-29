@@ -74,8 +74,10 @@ public class User {
     private String firstName;
     private String lastName;
     
-    // Supports multiple models inside itself, works on hashmaps. Doesn't need @IdField in this model just variables for data. 
+    // Supports multiple models inside itself, works on hashmaps.
+    // Doesn't need @IdField in this model just variables for data. 
     // private List<UserSettings> userSettings = new ArrayList<>(); 
+    // private HashMap<String, FriendData> friends = new HashMap<>();
 
     // No-argument constructor
     public User() {
